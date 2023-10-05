@@ -14,7 +14,7 @@ const Header = () => {
     <header className="shadow-md bg-white sticky top-0">
       <div className="container max-w-1200 py-4 flex justify-between items-center">
         <div className="flex items-center">
-          <img src="/public/Location.svg" alt="locaion" />
+          <img src="/Location.svg" alt="locaion" />
           <select className="mx-3 h-7 rounded-md border-0  py-0 pl-2 pr-2 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm">
             <option>{lang.location}</option>
             <option>{lang.location2}</option>
@@ -27,7 +27,7 @@ const Header = () => {
         <div className="flex items-center">
           <p className="mr-10">{lang.WorkingHours}</p>
           <div className="flex items-center">
-            <img src="/public/Account.svg" alt="account" />
+            <img src="/Account.svg" alt="account" />
             <p className="ml-3">{lang.login}</p>
           </div>
         </div>
@@ -37,7 +37,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           <Link to={"/"}>
             <LazyLoadImage
-              src={"/public/logo1.svg"} // use normal <img> attributes as props
+              src={"/logo1.svg"} // use normal <img> attributes as props
               width={150}
               height={150}
               alt={"logo"}
@@ -47,7 +47,7 @@ const Header = () => {
             <Link to={"/cart"}>
               <button className="py-2 px-4 bg-[#FF7010] rounded-lg flex items-center text-center">
                 <LazyLoadImage
-                  src={"/public/card.svg"} // use normal <img> attributes as props
+                  src={"/card.svg"} // use normal <img> attributes as props
                   width={24}
                   height={24}
                   alt={"logo"}
